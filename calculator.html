@@ -25,9 +25,13 @@
         <img src="pip.jpg" />
         <div class="card-content">
           <h3>Pip calculator</h3>
-          <p>
-            Use this calculator to get the number of pips from your trade
-            setup<a href="" class="btn">Calculate</a>
+          <p>Enter the following to calculate pips:</p>
+          <label for="entry-price">Entry Price:</label>
+          <input type="number" id="entry-price" />
+          <label for="exit-price">Exit Price:</label>
+          <input type="number" id="exit-price" />
+          <button onclick="calculatePips()">Calculate</button>
+          <p id="pip-result"></p>
           </p>
         </div>
       </div>
@@ -61,4 +65,5 @@
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

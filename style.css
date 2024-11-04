@@ -170,3 +170,8 @@ a:hover {
   margin-left: 16px;
   color: #fff;
 }
+.card-index {
+  display: inline-flex;
+
+  margin-top: 100px;
+}
