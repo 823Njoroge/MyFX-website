@@ -33,3 +33,7 @@ function calculateRiskReward() {
     "result"
   ).innerText = `Risk to Reward Ratio: 1 : ${ratio}`;
 }
+function getSession(){
+  const Session="NewYork"
+  if Tim
+}
