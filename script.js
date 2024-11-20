@@ -33,7 +33,37 @@ function calculateRiskReward() {
     "result"
   ).innerText = `Risk to Reward Ratio: 1 : ${ratio}`;
 }
-function getSession(){
-  const Session="NewYork"
-  if Tim
+function getForexSession() {
+  const now = new Date();
+  const utcHour = now.getUTCHours(); // Get the current hour in UTC
+  let session = "";
+
+  if ((utcHour >= 22 && utcHour <= 23) || (utcHour >= 0 && utcHour < 7)) {
+    session = "Sydney";
+  } else if (utcHour >= 0 && utcHour < 9) {
+    session = "Asian";
+  } else if (utcHour >= 8 && utcHour < 17) {
+    session = "London";
+  } else if (utcHour >= 13 && utcHour < 22) {
+    session = "New York";
+  } else {
+    session = "No active session";
+  }
+
+  return session;
 }
+
+// Function to update the HTML
+function updateForexSession() {
+  const session = getForexSession();
+  const sessionElement = document.getElementById("current-session");
+  if (sessionElement) {
+    sessionElement.textContent = session;
+  }
+}
+
+// Call the function to display the session on page load
+updateForexSession();
+
+// Optional: Update the session periodically (e.g., every hour)
+setInterval(updateForexSession, 3600000);
