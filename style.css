@@ -147,6 +147,18 @@ h1 {
   flex-wrap: wrap;
   margin-top: 50px;
 }
+.sessions-card h3 {
+  font-size: 20px;
+}
+.sessions-card h4 {
+  font-size: 15px;
+  text-align: center;
+}
+.sessions-card p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  padding: 10px;
+}
 .scards {
   width: 320px;
   background-color: #ffffff;
