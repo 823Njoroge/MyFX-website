@@ -14,22 +14,22 @@
 
     <nav>
       <a href="ebooks.html">Access free E-books</a>
-      <a href="#time">Market Time</a>
+      <a href="time.html">Market Time</a>
       <a href="#news">Forex News</a>
       <a href="calculator.html">Forex Calculator</a>
       <a href="#tutorials">Trading Tutorials</a>
     </nav>
 
-    <div class="card-container">
-      <div class="card">
+    <div class="calc-container">
+      <div class="calccard">
         <img src="pip.jpg" />
-        <div class="card-content">
+        <div class="calccard-content">
           <h3>Pip calculator</h3>
           <p>Enter the following to calculate pips:</p>
-          <label for="entry-price">Entry Price:</label>
-          <input type="number" id="entry-price" />
-          <label for="exit-price">Exit Price:</label>
-          <input type="number" id="exit-price" />
+          <label  for="entry-price">Entry Price:</label>
+          <input class="entry" type="number" id="entry-price" /></br>
+          <label for="exit-price">Exit Price :</label>
+          <input type="number" id="exit-price" /></br>
           <button onclick="calculatePips()">Calculate</button>
           <p id="pip-result"></p>
           </p>
@@ -37,10 +37,10 @@
       </div>
     </div>
 
-    <div class="card-container">
-      <div class="card">
-        <img src="rr.jpg" />
-        <div class="card-content">
+    <div class="calc-container">
+      <div class="calccard">
+        <img src="margin.jpg" />
+        <div class="calccard-content">
           <h3>Risk:Reward Calculator</h3>
           <p>
             Use this calculator to get the risk to reward ratio
