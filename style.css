@@ -194,6 +194,8 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  justify-content: center; /* Centers content vertically */
+  align-items: center;
 }
 .calccard img {
   width: 100%;
@@ -214,7 +216,31 @@ h1 {
   margin-bottom: 10px;
 }
 .calccard-content button {
-  text-align: center;
-  justify-content: center;
-  margin-left: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #003d80;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.calccard-content button {
+  padding-left: 10px;
+}
+
+#forex-news {
+  padding: 20px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#news-list {
+  list-style: none;
+  padding: 0;
+}
+
+#news-list li {
+  margin: 10px 0;
+  font-size: 16px;
 }
