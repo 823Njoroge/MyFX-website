@@ -227,20 +227,3 @@ h1 {
 .calccard-content button {
   padding-left: 10px;
 }
-
-#forex-news {
-  padding: 20px;
-  background: #f4f4f4;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
-
-#news-list {
-  list-style: none;
-  padding: 0;
-}
-
-#news-list li {
-  margin: 10px 0;
-  font-size: 16px;
-}

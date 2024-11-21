@@ -1,0 +1,18 @@
+#forex-news {
+  padding: 20px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#news-list {
+  list-style: none;
+  padding: 0;
+}
+
+#news-list li {
+  margin: 10px 0;
+  font-size: 16px;
+}
